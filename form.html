@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="violet">
+    <h2>BLOOD DONATION DRIVE FORM</h2>
+
+<form action="connection.php" method="POST" id="form1">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" ><br>
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  <label for="bloodg">Blood Group:</label><br>
+  <input type="text" id="bloodg" name="bloodg" placeholder="eg:o+ve"><br>
+  <label for="weight">Weight(in kg):</label><br>
+  <input type="text" id="weight" name="weight" ><br>
+  <label for="height">Height(in feet):</label><br>
+  <input type="text" id="height" name="height" ><br>
+  <button type="submit" form="form1" value="Submit">Submit</button>
+
+</form>
+<style>
+    body{
+        text-align: center;
+    }
+    input{
+        margin: 20px;
+        padding: 10px;
+        
+    }
+    label{
+        top: 0px;
+        text-align: center;
+        font-weight: 700;
+    }
+    button{
+        height: 40px;
+        width: 100px;
+        color:red;
+        font-weight: 700px;
+    }
+</style>
+    
+</body>
+</html>
